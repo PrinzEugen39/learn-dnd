@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -95,6 +96,10 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
+
+        <Link href="/react-quilljs">
+          <button className="p-2 border border-gray-50">ke react quill js</button>
+        </Link>
       </footer>
     </div>
   );
